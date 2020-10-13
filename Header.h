@@ -1,6 +1,7 @@
 ﻿#pragma once
 
 #include <QCoreApplication>
+#include <QDebug>
 #include <iostream>
 #include <random>
 #include <algorithm>
@@ -27,7 +28,7 @@ template <typename T>
 void SelectionSort(std::vector<T>& array){
 
     for(size_t i=0;i<(array.size()-1);i++){
-        size_t minIndex=array[i];
+        size_t minIndex=i;
 
         for(size_t j=i+1;j<array.size();j++){
             if(array[j]<array[minIndex]){
