@@ -12,9 +12,11 @@ int main()
     //сортировка вставкой
     //InsertionSort(v);
 
-    std::vector<int> vv={5,2,4,6,1,3};
     //сортировка выбором
-    SelectionSort(vv); //ломается heap пофиксить
+    //SelectionSort(v);
+
+    //сортировка слиянием
+    MergeSort(v,0,(v.size()-1));
 
     return 0;
 }
