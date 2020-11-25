@@ -23,4 +23,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    Header.h
+    Header.h \
+    InsertionSort.h \
+    MergeSort.h \
+    SelectionSort.h \
+    SqrtNewton.h
