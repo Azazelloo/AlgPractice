@@ -4,8 +4,8 @@
 //_____в данной реализации функция возвращает ближайший квадратный корень к Val с помощью формулы Герона
 unsigned int SqrtNewton(unsigned int Val)
 {
-    int rslt = Val;
-    int div = Val;
+    unsigned int rslt = Val;
+    unsigned int div = Val;
     if (Val <= 0) return 0;
 
     while (1)
